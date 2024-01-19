@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  /* Почему нельзя сюда прописать margin-left? */
+
+.chapter {
+    color: white;
+    background-color: black;
+    margin-bottom: 25px;
+}
+
+p {
+    margin-bottom: 25px;
+}
+
+body {
+    margin-left: 65px;
+}
+
+img {
+    margin-bottom: 25px;
+}
+
+ul {
+    margin-bottom: 25px;
+    list-style-position: inside;
+}
+
+/* ul, li {
+    border: 1px black solid;
+} */
