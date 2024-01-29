@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* height: 2600px; */
+}
+
+.header {
+    width: 100%;
+    padding: 50px;
+
+    display:flex;
+    justify-content: space-between;
+
+    position: fixed;
+    background:#FFFFFF;
+    z-index: 4;
+}
+
+.logo {
+    color:#E50043;
+    font-size: 50px;
+}
+
+.hero-background {
+    /* margin-top: 250px; */
+    width: 100%;
+
+}
+
+.menu {
+    margin-top: 15px;
+}
+
+.menu > li {
+    margin-right: 50px;
+
+    display: inline;
+    color: #E50043;
+    font-size: 50px;
+}
+
+.menu > li:last-of-type {
+    margin-right: 0px;
+}
+
+.hero > h3 {
+    z-index: 3;
+    color: #E50043;
+    display: flex;
+
+    position: absolute;
+    font-size: 100px;
+}
+
+.hero {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+
+.purple {
+
+    padding: 24px;
+    width: 60%;
+
+
+    border: 3px solid #F8BFC7;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.purple > p {
+    margin-bottom: 20px;
+}
+
+.purple-container {
+
+    display: flex;
+    justify-content: center;
+
+    margin-top: 200px;
+    
+}
+
+.catalog {
+    margin-top: 200px;
+    display: flex;
+
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.element > p {
+    font-size: 25px;
+}
+
+.element > img {
+    margin-bottom: 40px;
+}
+
+
+.product > img {
+    height: 400px ;
+
+}
+
+.product {
+    padding: 24px;
+    width: 60%;
+    display: flex;
+
+    border: 3px solid #F8BFC7;
+    border-radius: 20px;
+    font-size: 25px;
+    justify-content: space-around;
+
+    margin-bottom: 200px;
+
+    align-items: stretch;
+}
+
+
+
+/* .disc > p:first-of-type{
+    margin-bottom: 25px;
+}
+
+.disc > p:last-of-type {
+    margin-top: 25px;
+} */
+
+.disc {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+
+
+    font-size: 25px;
+}
+
+.footer {
+    background: #F8BFC7;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+
+    color: #FFFFFF;
+}
