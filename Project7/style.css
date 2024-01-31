@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    padding: 30px;
+    background-color: aqua;
+}
+
+.footer {
+    display: flex;
+    padding: 30px;
+    background-color: aqua;
+}
+
+.block {
+    display: flex;
+
+    justify-content: space-around;
+    padding: 50px;
+    align-items: flex-start;
+
+    border: 1px black solid;
+}
+.section {
+
+    display: flex;
+    border: 1px gold solid;
+    width: 400px;
+
+    flex-direction: column;
+    height: max-content;
+
+}
+
+.illustration > img {
+    display: block;
+    width: 100%;
+}
+
+.illustration {
+    border: 3px solid salmon;
+
+    width:100%;
+
+}
